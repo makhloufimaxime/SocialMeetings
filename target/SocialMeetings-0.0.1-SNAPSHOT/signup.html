@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<title>Social Meeting</title>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="body">
+		<p>
+		<form>
+			<b>Email Address: </b><input id='email' type='text' placeholder='Enter email address' name='email' required>
+			<b>First Name: </b><input id='firstname' type='text' placeholder='Enter First Name' name='firstname' required>
+			<b>Last Name: </b><input id='lastname' type='text' placeholder='Enter Last Name' name='lastname' required>
+			<p><b>Description: </b><textarea id='description'></textarea></p>
+			<button onclick="signUp()">Sign up</button>
+		</form>
+		</p>
+		</div>
+		
+		<div id="error"></div>
+		
+		<script src="js/script.js"></script>
+		<script src="js/signup.js"></script>
+	</body>
+</html>

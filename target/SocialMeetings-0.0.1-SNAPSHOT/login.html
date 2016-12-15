@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<title>Social Meeting</title>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="body">
+		<p>
+			
+				<b>Email Address</b><input id='email' type='text' placeholder='Enter email address' name='email' onKeyPress="if (event.keyCode == 13) logIn()" required>
+			
+			<button onclick="logIn()">Log in</button>
+		</p>
+		</div>
+		<div id="error"></div>
+		
+		<script src="js/script.js"></script>
+		<script src="js/login.js"></script>
+		
+	</body>
+</html>

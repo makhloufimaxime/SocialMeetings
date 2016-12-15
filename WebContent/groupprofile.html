@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<title>Social Meeting</title>
+</head>
+<body>
+	<div id="header"></div>
+	<div id="body">
+		<div id="groupDescription">
+			<div>
+				<h4>Update Informations:</h4>
+				<p><b>Group Name: </b><input id='name' type='text' placeholder='Group Name' name='name' value ="" required></p>
+				<label><b>Admin : </b></label><label id='admin'></label>
+				<p><b>Description: </b><textarea id='description'></textarea></p>
+			</div>
+			<div id="buttons">
+				<!-- On affiche un bouton join si on est pas admin et pas membre
+				Sinon un bouton leave si on est membre mais pas admin
+				Sinon (admin) on affiche le truc udpate group et supprimer groupe -->
+			</div>
+		</div>
+		<div id="board"> 
+			<!-- On place les baords ici, faudrait arriver à les mettre 
+			à droites des infos si c'est possible via css
+			Sinon ici en-dessous, c'est pas grave -->
+		</div>
+		<div id="listMembers">
+			<!--Nombres de membres + List participants -->
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+	<script src="js/groupprofile.js"></script>
+</body>
+</html>
